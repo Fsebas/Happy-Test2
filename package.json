@@ -1,0 +1,23 @@
+{
+  "name": "ria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/service/index.js",
+    "dev": "nodemon src/service/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1"
+  }
+}
